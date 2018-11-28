@@ -1,0 +1,77 @@
+.photo {
+	background: url(../img/BG.png);
+	width: 1366px;
+	height: 100vh;
+	background-repeat: no-repeat;
+}
+
+.TEXT {
+    font-size: 60px;
+    color: #dcdf98;
+    font-family: 'Open Sans Semi-Bold', sans-serif;
+}
+
+.text {
+	font-size: 14px;
+	color: #dcdf98;
+    font-family: 'Open Sans Semi-bold', sans-serif;
+    margin: 3px 0 0 3px;
+}
+
+.background_vis{
+	padding: 126px 0 0 374px;
+}
+
+form {
+	padding: 40px 0 0 374px;
+}
+
+input {
+	border: 1px solid #dcdf98;
+	font-size: 14px;
+    font-family: 'Open Sans Semi-bold', sans-serif;
+    margin-right: 12px;
+    background: transparent;
+    height: 30px;
+    border-radius: 10px; 
+}
+
+input::-webkit-input-placeholder {
+    color: #dcdf98;
+    font-size: 14px;
+    font-family: 'Open Sans Semi-bold', sans-serif;
+    padding-left: 10px;
+}
+input:hover { 
+	border: 9px solid #dcdf98; 
+	transition-duration: 3s; 
+}
+
+input:active {
+
+}
+.inp1 {
+	width: 130px;
+    }
+
+.inp2 {
+	width: 165px;
+}
+
+.inp3 {
+	width: 135px;
+}
+
+button {
+	border: none;
+	width: 175px;
+	color: #fff;
+	background-color: #58a856;
+	font-size: 14px;
+    font-family: 'Open Sans Semi-bold', sans-serif;
+    height: 30px;
+    border-radius: 10px;
+}
+
+
+
