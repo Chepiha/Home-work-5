@@ -1,57 +1,64 @@
-.photo {
-	background: url(../img/BG.png);
-	width: 1366px;
-	height: 100vh;
-	background-repeat: no-repeat;
+body {
+	font-family: 'Open Sans Semi-bold', sans-serif;
+	font-size: 14px;
 }
 
-.TEXT {
+.header {
+	background: url(../img/photo.png);
+    background-size: cover;
+    height: 100vh;
+	background-repeat: no-repeat;
+
+}
+
+.wrapper {
+	background: url(../img/Back_vis.png);
+	height: 230px;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+}
+
+.wrapper div {
+	padding: 30px 0 0 375px;
+}
+
+.wrapper div p {
     font-size: 60px;
     color: #dcdf98;
-    font-family: 'Open Sans Semi-Bold', sans-serif;
 }
 
-.text {
-	font-size: 14px;
+.wrapper > div span {
 	color: #dcdf98;
-    font-family: 'Open Sans Semi-bold', sans-serif;
     margin: 3px 0 0 3px;
 }
 
-.background_vis{
-	padding: 126px 0 0 374px;
-}
-
 form {
-	padding: 40px 0 0 374px;
+    margin-top: 40px;
+    height: 30px;
+    width: 645px;
 }
 
 input {
 	border: 1px solid #dcdf98;
-	font-size: 14px;
-    font-family: 'Open Sans Semi-bold', sans-serif;
     margin-right: 12px;
     background: transparent;
     height: 30px;
     border-radius: 10px;
-    outline:none; 
+    outline:none;
+    transition: 1.5s; 
 }
 
 input::-webkit-input-placeholder {
-    color: #dcdf98;
-    font-size: 14px;
-    font-family: 'Open Sans Semi-bold', sans-serif;
-    padding-left: 10px;
+    color: #dcdf98; 
 }
 input:hover { 
-	border: 9px solid #dcdf98; 
-	transition-duration: 3s; 
+	border: 9px solid #dcdf98;
 }
 
 .inp1 {
 	width: 130px;
 	color: #dcdf98;
-
     }
 
 .inp2 {
@@ -65,14 +72,13 @@ input:hover {
 }
 
 button {
-	border: none;
 	width: 175px;
+	height: 30px;
 	color: #fff;
 	background-color: #58a856;
-	font-size: 14px;
-    font-family: 'Open Sans Semi-bold', sans-serif;
-    height: 30px;
     border-radius: 10px;
+    border: none;
+    outline:none;
 }
 
 
