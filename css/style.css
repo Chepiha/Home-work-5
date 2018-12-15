@@ -45,14 +45,15 @@ input {
     height: 30px;
     border-radius: 10px;
     outline:none;
-    transition: 1.5s; 
+    color: white;
+    transition: 0.5s; 
 }
 
 input::-webkit-input-placeholder {
     color: #dcdf98; 
 }
 input:hover { 
-	border: 9px solid #dcdf98;
+    border: 5px solid #dcdf98;
 }
 
 .inp1 {
